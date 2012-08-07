@@ -73,7 +73,7 @@ function generateGraphics(index){
 
 			var sp = new esri.layers.GraphicsLayer();
 			map.addLayer(sp);
-			_storyPoints[index] = sp;
+			_storyPoints[i] = sp;
 
 			if (layer.graphics[0].attributes.order){
 				layer.graphics.sort(function(a,b){
